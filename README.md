@@ -1,0 +1,1 @@
+To load the app, please navigate to folder in command prompt/terminal and type node nodeserver.js

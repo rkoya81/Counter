@@ -1,0 +1,54 @@
+.word-count-cont {
+  padding: 5px 0px;
+  .text-label {
+    font-weight: bold;
+  }
+  .value {
+    color: #008000;
+  }
+}
+
+
+.error-mes-cont {
+  padding: 10px 0;
+}
+.error {
+  color: #ff0000;
+}
+
+#results {
+  padding-left: 5px;
+  .word-table {
+    width: 100%;
+    td {
+      padding: 10px;
+    
+      &.key {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #results {
+    .word-table {
+      td {
+        display:block;
+
+        &.key {
+          background: #ccc;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 969px) {
+  #results {
+    float:right;
+    width: 83.33333%;
+  }
+}

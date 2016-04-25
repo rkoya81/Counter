@@ -1,0 +1,59 @@
+/* line 1, ../sass/style.scss */
+.word-count-cont {
+  padding: 5px 0px;
+}
+/* line 3, ../sass/style.scss */
+.word-count-cont .text-label {
+  font-weight: bold;
+}
+/* line 6, ../sass/style.scss */
+.word-count-cont .value {
+  color: #008000;
+}
+
+/* line 12, ../sass/style.scss */
+.error-mes-cont {
+  padding: 10px 0;
+}
+
+/* line 15, ../sass/style.scss */
+.error {
+  color: #ff0000;
+}
+
+/* line 19, ../sass/style.scss */
+#results {
+  padding-left: 5px;
+}
+/* line 21, ../sass/style.scss */
+#results .word-table {
+  width: 100%;
+}
+/* line 23, ../sass/style.scss */
+#results .word-table td {
+  padding: 10px;
+}
+/* line 26, ../sass/style.scss */
+#results .word-table td.key {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  /* line 38, ../sass/style.scss */
+  #results .word-table td {
+    display: block;
+  }
+  /* line 41, ../sass/style.scss */
+  #results .word-table td.key {
+    background: #ccc;
+  }
+}
+@media (min-width: 969px) {
+  /* line 50, ../sass/style.scss */
+  #results {
+    float: right;
+    width: 83.33333%;
+  }
+}
